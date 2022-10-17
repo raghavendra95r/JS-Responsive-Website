@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Restuarent</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo"> Food <span>.</span></a>
+      <ul class="navigation">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#expert">Expert</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Always choose Good</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          asperiores, magni aliquam facilis doloremque culpa tempora dignissimos
+          esse iste error labore facere neque architecto et maxime officia.
+          Alias, quisquam vitae!
+        </p>
+        <a href="#" class="btn"> Our Menu</a>
+      </div>
+    </section class="about" id="about">
+    <div class="row">
+        <div class="col50">
+            <h2><span>A</span>bout Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                asperiores, magni aliquam facilis doloremque culpa tempora dignissimos
+                esse iste error labore facere neque architecto et maxime officia.
+                Alias, quisquam vitae!<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                    asperiores, magni aliquam facilis doloremque culpa tempora dignissimos
+                    esse iste error labore facere neque architecto et maxime officia.
+                    Alias, quisquam vitae!
+                  
+              </p>
+        </div>
+        <div class="col50">
+            <div class="imgBx">
+                <img src="./images/img1.jpg">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+      window.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
